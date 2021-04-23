@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">easygoband-test</string>
+    <string name="enter_id">Enter the ID you want to check</string>
+    <string name="error">Something went wrong...</string>
+    <string name="access">"Access: "</string>
+    <string name="session">"Session: "</string>
+    <string name="usages">"Usages: "</string>
+    <string name="no_internet">This app needs internet connection to work\ncheck your status and try again later please</string>
+</resources>

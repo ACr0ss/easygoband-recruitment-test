@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ticket_base"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_ticket"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/typewriter_black"
+            android:lines="2"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/modified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="normal|bold"
+            android:fontFamily="@font/typewriter_black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/access"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+
+            <TextView
+                android:id="@+id/access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_sessions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+
+            <TextView
+                android:id="@+id/sessions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_usages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usages"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+
+            <TextView
+                android:id="@+id/usages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/typewriter"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
